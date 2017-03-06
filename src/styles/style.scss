@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+}
+
+/***************
+HEADER
+***************/
+  #header{
+    position: relative;
+  }
+  #skyline, #logo{
+    display: block;
+    width: 100%;
+  }
+  #logo{
+    position: absolute;
+    border-radius: 50%;
+    border: 8px solid white;
+    width: 10%;
+    bottom: -15%;
+    left: 10%;
+  }
+
+
+/***************
+COLUMNS GENERAL
+***************/
+  #left, #right{
+    display: inline-block;
+    margin: 50px 20px 0 100px;
+  }
+  #left{
+    width: 20.5%;
+    vertical-align: top;
+  }
+  #right{
+    width:40%;
+  }
+
+
+/***************
+LEFT:SPECIFIC
+***************/
+  #happen, #search, #keyword{
+    color: grey;
+  }
+
+  #happen{
+    border-bottom: 1px solid grey;
+    padding-bottom: 10px;
+  }
+
+  #keyword{
+    border: 1px solid grey;
+  }
+
+
+/***************
+RIGHT:SPECIFIC
+***************/
+  #brian{
+    font-style: italic;
+  }
+  #classroom{
+    max-width: 100%;
+  }
+  #lorem{
+    font-family: sans-serif;
+    font-size:16pt;
+  }
+
+
+/***************
+FIXED LOGO
+***************/
+#fix{
+  border: 1px solid #E0E0E0;
+  background: white;
+  border-radius: 10px;
+  width: 280px;
+  height: 120px;
+  position: fixed;
+  bottom: 150px;
+  right: 0;
+  font-size: 0pt;
+  padding:0px;
+}
+
+#top{
+  padding-left: 0 5px;
+  margin: 0 5px;
+  border-bottom: 1px solid #E0E0E0;
+}
+#fix p{
+  font-size: 11pt;
+}
+
+#top p, #bottom p:nth-child(2){
+  font-weight: bold;
+}
+
+#bottom img, #bottom_middle, #bottom_right{
+  display: inline-block;
+  padding: 2px;
+}
+
+#fix img{
+  max-width:50px;
+  border-radius:10%
+}
+
+#follow{
+  background: #1976D2;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+  float: right;
+}
